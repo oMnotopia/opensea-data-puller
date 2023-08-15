@@ -1,0 +1,12 @@
+.react-datepicker__tab-loop {
+    position: absolute;
+    top: 0;
+}
+
+.react-datepicker__triangle {
+  display: none !important;
+}
+
+.react-datepicker-wrapper {
+  width: 25% !important;
+}

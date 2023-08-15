@@ -1,0 +1,27 @@
+/* .itemContainer {
+    padding: 1rem;
+}
+
+.itemContainer > * {
+    padding: 0.25rem;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nftImage {
+    max-width: 25vw;
+    display: block;
+    margin: auto;
+}
+
+.description {
+    font-size: 0.75rem;
+} */
+
+.content{
+    text-align: center;
+}

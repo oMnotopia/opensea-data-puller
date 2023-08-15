@@ -1,0 +1,33 @@
+.filter{
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    padding: 0 0 2rem 0;
+}
+
+.title{
+    text-align: center;
+    color: #d64161;
+    background-color: #feb236;
+    margin: 0 0 2rem 0;
+}
+
+.submit{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+@media (min-width: 1023px) {
+    form {
+        display: inline-block;
+        position: relative;
+        left: 18%;
+    }
+}
+
+@media (min-width: 1439px) {
+    form {
+        left: 27%;
+    }
+}

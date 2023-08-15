@@ -1,0 +1,42 @@
+
+.App{
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+
+    justify-content: center;
+    height: 100vh;
+    background-color: #6b5b95;
+    color:#ff7b25;
+}
+
+
+
+@media (min-width: 0) {
+    .app{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .APIContainer{
+        border: 3px solid #feb236;
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+@media (min-width: 767px) {
+    .App{
+        align-items: center;
+    }
+
+    .APIContainer {
+        width: 60%;
+    }
+}
+
+
+@media (min-width: 1023px) {
+    .APIContainer{
+        width: 50%;
+    }
+}
